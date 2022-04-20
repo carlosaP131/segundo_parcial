@@ -31,7 +31,7 @@ public class JerarquiaOperadores {
 	   char letra = 95;
 	   char arrayletras[]= {'9','6','5'};
 	   System.out.println("caracter "+caracter+" caracter2 "+letra+" arreglo "+arrayletras[2]);
-	   for(int i =97;i<125;i++) {
+	   for(int i =97;i<123;i++) {
 		  if(i%4 != 0)
 		   System.out.print((char)i+"-");
 		  else {
