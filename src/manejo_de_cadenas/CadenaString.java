@@ -28,7 +28,7 @@ public class CadenaString {
 		System.out.println("extraer subcadenas de la cadena1 "+ cadena1.substring(1,3));
 	//palindromo con charAt
 		String palabra ="anita lava la tina";
-		palabra = palabra.spli();
+		palabra = palabra.replace(" ","");
 		int cont = 0;
 		for(int i=0;i<palabra.length();i++) {
 			if(palabra.charAt(i) == palabra.charAt(palabra.length()-(i+1))) {
